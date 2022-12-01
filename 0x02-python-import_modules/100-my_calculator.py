@@ -1,9 +1,9 @@
 #!/usr/bin/python3
+from sys import argv, exit
+from calculator_1 import add, sub, mul, div
+
 
 if __name__ == "__main__":
-    import sys
-    from calculator_1 import add, sub, mul, div
-    
     arglen = len(argv) - 1
     if arglen == 0:
         print('Usage: ./100-my_calculator.py <a> <operator> <b>')
