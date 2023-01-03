@@ -1,1 +1,0 @@
-Repository about Python classes
